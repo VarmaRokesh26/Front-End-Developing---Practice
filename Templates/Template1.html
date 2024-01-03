@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .header {
+            display: flex;
+            background-color: black;
+            height: 80px;
+            width: auto;
+        }
+        .focal {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .logo {
+            display: flex;
+            background-color: grey;
+            margin: 15px;
+            color: white;
+            width: 20px;
+            height: 20px;
+            padding: 15px;
+            font-size: 30px;
+        }
+        .logop {
+            align-items: center;
+            justify-content: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 400px;
+        }
+        .nav a{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            padding:14px 16px;
+        }
+        .nav:hover {
+            color: #00f583;
+        }
+        .nav a.active{
+            color: #00f583;
+        }
+        .main-content {
+            display: flex;
+        }
+        .main-content-div {
+            width: 40%;
+            height: 100%;
+        }
+        .prog {
+            width: 100%;
+            background-color: lightgray;
+            display: inline-block;
+        }
+        .progress-bar {
+            display: flex;
+            padding-top: 5px;
+            vertical-align: top; 
+            background-color: #00f583; 
+            border-radius: 5px;
+            justify-content: flex-end;
+        }
+        .percentage {
+            margin-right: 100%;
+            align-items: stretch;
+        }
+        button {
+            border: 2px solid #00f583;
+            color: #00f583;
+            background-color: white;
+            width: 30%;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo logop"><b>F</b></div>
+        <div style="margin-top: 18px;">
+            <span class="focal" style="color: white;">FO</span><span class="focal" style="color: rgb(0, 221, 99);">CAL</span>
+        </div>
+        <div class="nav">
+            <a href="#" class="nav"><b>HOME</b></a>
+            <a href="#" class="nav"><b>ABOUT ME</b></a>
+            <a href="#" class="nav"><b>RESUME</b></a>
+            <a href="Template1.html" class="active"><b>SKILLS</b></a>
+            <a href="#" class="nav"><b>TESTIMONIALS</b></a>
+            <a href="#" class="nav"><b>PORTFOLIO</b></a>
+            <a href="#" class="nav"><b>CONTACT US</b></a>
+        </div>
+    </div>    
+    <div class="main-content">
+        <div class="flex-container main-content-div" style="margin-left: 150px;">
+            <p style="font-size: 50px;"><b>MY SKILLS</b></p>
+            <p style="font-size: 20px;">
+                Lorem ipsum dolor sit amet, ea doming epicuri iudicabit <br><br>
+                nam, te usu virtue placement. Purto brute disputando cu <br><br>
+                est, eam dicam soluta ei. Vei dicam vivendo accusata ei, <br><br>
+                cum ne priculis molestiae pri. <br><br>
+                Lore ipsum dolor sit amet, ea doming epicuri iudicabit <br><br>
+                nam, te usu virtue placement. Purto brute disputando cu <br><br>
+                est.
+            </p>
+
+            <button>Click Me</button>
+        </div>        
+        <div class="main-content-div" style="margin-top: 100px;">
+            <P>PHOTOTSHOP</P>
+            <div class="prog">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+            <p>ILLUSTRATOR</p>
+            <div class="prog">
+                <div class="progress-bar" style="width: 80%;">80%</div>
+            </div>
+            <p>HTML/CSS</p>
+            <div class="prog">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+            <p>PHP/MYSQL</p>
+            <div class="prog">
+                <div class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

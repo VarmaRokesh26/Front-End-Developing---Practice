@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .header {
+            display: flex;
+            background-color: rgb(88, 192, 142);
+            height: 80px;
+            width: auto;
+        }
+        .footer {
+            display: flex;
+            background-color: rgb(88, 192, 142);
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-p {
+            color: white;
+            font-weight: bold;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .logo {
+            display: flex;
+            background-color:rgb(88, 192, 142);
+            margin: 15px;
+            width: 20px;
+            height: 20px;
+            padding: 15px;
+            font-size: 30px;
+        }
+        .logop {
+            align-items: center;
+            justify-content: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 590px;
+        }
+        .nav a{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            padding:14px 16px;
+        }
+        .main-container {
+            display: flex;
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            background-color: rgb(85, 85, 231);
+            width: 15%;
+            height: 50px;
+            color: white;
+            border: 0px;
+        }
+        .below-footer {
+            display: flex;
+            width: auto;
+            height: 300px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .below-footer1 {
+            display: flex;
+            background-color: white;
+            justify-content: center;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: white;
+            justify-content: space-around;
+        }
+
+        .flex-container > div {
+            width: 100%;
+            margin: 25px;
+            height: 80px;
+        }
+        .div1 {
+            text-align: center;
+            display: flex;
+            border: 1px solid rgb(247, 162, 162);
+            background-color: rgb(227, 176, 176);
+            color: rgb(193, 70, 70);
+            align-items: center;
+            justify-content: center;
+        }
+        .div2 {
+            text-align: center;
+            display: flex;
+            border: 1px solid rgb(162, 247, 190);
+            background-color: rgb(162, 247, 190);
+            color: rgb(39, 170, 58);
+            align-items: center;
+            justify-content: center;
+        }
+        .div3 {
+            text-align: center;
+            display: flex;
+            border: 1px solid rgb(246, 247, 181);
+            background-color: rgb(242, 255, 145);
+            color: rgb(140, 151, 44);
+            align-items: center;
+            justify-content: center;
+        }
+        .div4 {
+            text-align: center;
+            display: flex;
+            border: 1px solid rgb(165, 209, 255);
+            background-color: rgb(118, 214, 225);
+            color: rgb(57, 104, 133);
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo logop"></div>
+        <div style="margin-top: 20px;">
+            <span class="name" style="color: white;">Your Logo</span>
+        </div>
+        <div class="nav">
+            <a href="#" class="nav"><b>HOME</b></a>
+            <a href="#" class="nav"><b>ABOUT</b></a>
+            <a href="#" class="nav"><b>TESTIMONIALS</b></a>
+            <a href="#" class="nav"><b>PRICING</b></a>
+            <a href="#" class="nav"><b>CONTACT</b></a>
+            <a href="#" class="nav"><b>SOCIAL</b></a>
+        </div>
+    </div>  
+    <div class="main-container">
+        <button>THIS TEMPLETE IS ALIVE</button>
+    </div>
+    <div class="footer" style="height: 80px;width: auto;">
+        <p class="footer-p" style="font-size: 20px;">About our Team</p>
+    </div>  
+    <div class="footer" style="height: 20px; width: auto;">
+        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="below-footer1" style="width: auto; height: 90px; align-items:flex-end;">
+        <p>OUR TEAM MEMBERS</p>
+    </div>
+    <div class="below-footer1" style="width: auto; height: 40px; align-items:flex-end;">
+        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtue placement. Purto brute disputando</p>
+    </div>
+    <div class="flex-container">
+        <div class="div1">Lorem ipsum dolor sit amet, ea doming <br> epicuri iudicabit nam, te usu virtue <br> placement. Purto brute disputando</div>
+        <div class="div2">Lorem ipsum dolor sit amet, ea doming <br> epicuri iudicabit nam, te usu virtue <br> placement. Purto brute disputando</div>
+        <div class="div3">Lorem ipsum dolor sit amet, ea doming <br> epicuri iudicabit nam, te usu virtue <br> placement. Purto brute disputando</div>
+        <div class="div4">Lorem ipsum dolor sit amet, ea doming <br> epicuri iudicabit nam, te usu virtue <br> placement. Purto brute disputando</div>
+    </div>
+</body>
+</html>
